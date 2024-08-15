@@ -19,6 +19,9 @@ When you have so much have options/types in creating an object for a class. i.e.
 
 Factory method is just a method that yeilds appropriate subclass objects for each super class types.
 
+![image](https://github.com/user-attachments/assets/7f1b31b9-6062-42fb-8f08-138c714c687d)
+
+
 ## Abstract Factory
 
 
@@ -40,9 +43,11 @@ create interface class for each products
 create concreate class for each variants;
 create concrete class of each variant factory that return object of same variant type of the product family.
  
+![image](https://github.com/user-attachments/assets/ff6eb9da-a1f0-4df4-86d2-59e2dbc1619b) <br>
+![image](https://github.com/user-attachments/assets/dbe73682-1eb0-4741-b5d0-457294cfac5f)
 
 
 
-References:
-https://refactoring.guru/design-patterns/factory-method
+**References:** <br>
+https://refactoring.guru/design-patterns/factory-method <br>
 https://refactoring.guru/design-patterns/abstract-factory
