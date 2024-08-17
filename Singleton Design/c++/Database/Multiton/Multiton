@@ -1,0 +1,26 @@
+public class Multiton
+{
+    private static readonly Dictionary<string, Multiton> Instances = new Dictionary<string, Multiton>();
+
+    private readonly string _identifier;
+
+    private Multiton(string identifier)
+    {
+        _identifier = identifier;
+    }
+
+    public static Multiton GetInstance(string identifier)
+    {
+        if (!Instances.ContainsKey(identifier))
+        {
+            Instances[identifier] = new Multiton(identifier);
+        }
+
+        return Instances[identifier];
+    }
+
+    public string GetIdentifier()
+    {
+        return identifier;
+    }
+}
