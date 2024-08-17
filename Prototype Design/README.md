@@ -18,6 +18,13 @@ Each class that inherits this interface implements cloning by:
 + copy constructor
 + operator overloading
 
+<br/>
+<br/>
+
+![image](https://github.com/user-attachments/assets/58783c44-dd83-4968-99ef-7df35667f7a8)
+
+<br/>
+<br/>
 
 **Reference:** <br>
 
