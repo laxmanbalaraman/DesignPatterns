@@ -1,7 +1,7 @@
 # Adapter Design Pattern
 
 
-Adapter lets two object with incompatiable interfaces to collaborate. 
+Adapter lets two object with incompatiable interfaces to collaborate.  In simple words make one object to behave (adapt) like (to) another object as long as the conversion make some sense.
 
 
 #### When?
@@ -46,7 +46,7 @@ Class AdapteeAdapter implements Target {
 
 main code;
 
-adapter = AdapteeAdapter();
+adapter = AdapteeAdapter(adaptee); // adapt addaptee to target
 adapter.print() // but iternally its is the  Legacy object that is moulded to do modern print. 
 
 ```
